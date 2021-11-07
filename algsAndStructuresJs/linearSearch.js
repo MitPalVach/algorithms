@@ -1,6 +1,6 @@
 // ====== linear search ================================ O(n)
 
-const array = [1, 3, 5, 11, 7, 2, 9, 8, 4]
+const array = [1, 3, 5, 11, 7, 2, 9, 8, 6, 4]
 let count = 0
 
 function linearSearch(array, item) {
