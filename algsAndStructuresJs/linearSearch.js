@@ -16,5 +16,7 @@ function linearSearch(array, item) {
 console.log(linearSearch(array, 4))
 console.log('count = ', count);
 
+// =========
+
 
 
