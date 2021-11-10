@@ -1,5 +1,27 @@
 // ===== selection sort ==================================== O(n*n)
 
+const array = [20, 19, 5, -3, -5, 11, 15, 6, 44, 32, 10, 7]
+
+console.log(array.sort((a, b) => {
+    return a - b
+}));
+
+
+// =============
+
+const array1 = [20, 19, 5, -3, -5, 11, 15, 6, 44, 32, 10, 7]
+
+console.log(array1.sort((a, b) => {
+    if (a > b) {
+        return 1
+    } else {
+        return -1
+    }
+}))
+
+
+// ===========
+
 const arr = [1, 0, 4, 7, 5, 11, 3, 17, 3, 22, 0, 3, 13, 20, 19, 5, -3, -5, 11, 15, 6, 44, 32, 10, 7, 12, 2, 13, 5, 1, 9, 8, 18, 4, 16]
 let count = 0
 
@@ -23,3 +45,11 @@ function selectionSort(array) {
 console.log(selectionSort(arr));
 console.log('array length: ', arr.length);
 console.log('count = ', count);
+
+
+
+
+
+
+
+

@@ -6,7 +6,7 @@ function palindrome(str) {
 }
 console.log(palindrome('asa'));
 
-// =====
+// ==========
 
 function palindrome1(str) {
     str = str.toLowerCase() // приводит к нижнему регистру

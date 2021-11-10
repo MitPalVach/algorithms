@@ -30,7 +30,7 @@ console.log(binarySearch(array, 13));
 console.log('count = ', count);
 
 
-// ===
+// ============
 
 let arr = [-444, -32, -1, 1, 3, 4, 5, 6, 8, 10, 13, 15, 19, 21, 22, 26, 31, 33]
 let count1 = 0
