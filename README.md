@@ -12,7 +12,7 @@ git push --set-upstream origin task1    // подключает ветку task1
 git fetch main   // притянуть изменения с репозитория ветки main
 git merge main   // заменить свой код на притянутый ветки main
 git pull    // берет код с репозитория и заменяет мой код на взятый (заменяет git fetch & git merge)
-git merge --abort    // вернет все до мерджа
+git merge --abort    // вернет все до мерджа 
 
 git cherry-pick {commit-hash}   // копирует код некого файла
 git checkout {commit-hash}    // для возврата к некому предыдущему коммиту
