@@ -31,7 +31,7 @@ const HooksQuestions = () => {
     }
 
     return (
-        <div style={{height: '300vh'}}>
+        <div style={{height: '10vh'}}>
             <div>{state}</div>
             <button onClick={fn}>Click me</button>
 
@@ -39,6 +39,7 @@ const HooksQuestions = () => {
             <input onChange={(e) => setValue(e.target.value)} placeholder={'Управляемый'}/>
             <input ref={input2} placeholder={'НЕ управляемый'}/>
             <button onClick={click}>Get value</button>
+            <hr/>
         </div>
     );
 };
